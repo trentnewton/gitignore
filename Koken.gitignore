@@ -1,0 +1,34 @@
+# Ignore configuration files that may contain sensitive information.
+storage/configuration/*
+
+# Ignore paths that contain generated content.
+storage/cache/*
+storage/custom/*
+storage/originals/*
+storage/tmp/*
+storage/wallpaper/*
+
+* Ignore default themes and plugins
+storage/plugins/*
+storage/themes/index.html/*
+storage/themes/elementary/*
+
+# Ignore default text files
+robots.txt
+
+# Ignore everything but the "storage" folder ( for non core developer )
+.htaccess
+a.php
+api.php
+dl.php
+i.php
+index.php
+preview.php
+/admin
+/app
+/includes
+/misc
+/modules
+/profiles
+/scripts
+/themes
